@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig RCUTILS
+        bool "RCUTILS support"
+        help
+          This option enables RCUTILS
+
+if RCUTILS
+
+endif
+
